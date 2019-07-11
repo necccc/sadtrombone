@@ -1,7 +1,7 @@
 {
   "name": "wompwompwomp",
   "version": "1.0.1",
-  "description": "npx sadtrombone",
+  "description": "npx wompwompwomp",
   "main": "bin/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
