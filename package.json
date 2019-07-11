@@ -1,5 +1,5 @@
 {
-  "name": "sadtrombone",
+  "name": "wompwompwomp",
   "version": "1.0.0",
   "description": "npx sadtrombone",
   "main": "bin/index",
@@ -15,7 +15,7 @@
     "nightwatch": "^1.1.13"
   },
   "bin": {
-    "sadtrombone": "bin/index"
+    "wompwompwomp": "bin/index"
   },
   "repository": {
     "type" : "git",
