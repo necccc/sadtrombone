@@ -1,13 +1,16 @@
 {
   "name": "wompwompwomp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npx sadtrombone",
   "main": "bin/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": false,
-  "keywords": ["sadtrombone", "fun"],
+  "keywords": [
+    "sadtrombone",
+    "fun"
+  ],
   "author": "nec@shell8.net",
   "license": "MIT",
   "dependencies": {
@@ -18,7 +21,7 @@
     "wompwompwomp": "bin/index"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/necccc/sadtrombone"
+    "type": "git",
+    "url": "https://github.com/necccc/sadtrombone"
   }
 }
