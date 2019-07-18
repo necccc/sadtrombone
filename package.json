@@ -1,6 +1,6 @@
 {
   "name": "wompwompwomp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "npx wompwompwomp",
   "main": "bin/wompwompwomp",
   "scripts": {
