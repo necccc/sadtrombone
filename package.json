@@ -2,7 +2,7 @@
   "name": "wompwompwomp",
   "version": "1.0.2",
   "description": "npx wompwompwomp",
-  "main": "bin/index",
+  "main": "bin/wompwompwomp",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,7 @@
     "nightwatch": "^1.1.13"
   },
   "bin": {
-    "wompwompwomp": "bin/index"
+    "wompwompwomp": "bin/wompwompwomp"
   },
   "repository": {
     "type": "git",

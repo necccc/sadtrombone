@@ -1,21 +1,20 @@
 const Nightwatch = require('nightwatch');
 
-Nightwatch.runTests('./src', {
-	"webdriver" : {
-		"start_process": true,
-		"server_path": "node_modules/.bin/chromedriver",
-		"port": 9515
-	  },
-  
-	  "test_settings" : {
-		"default" : {
-		  "desiredCapabilities": {
-			"browserName": "chrome"
-		  }
-		}
-	  }
-}).then(function() {
-  // Tests finished
-}).catch(function(err) {
-  // An error occurred
-});
+// read the CLI arguments
+Nightwatch.cli(function(argv) {
+	// create the Nightwatch CLI runner
+	const runner = Nightwatch.CliRunner({
+		env: ['default'],
+		config: `${__dirname}/nightwatch.config.js`
+	});
+
+	// setup and run tests
+	runner
+	  .setup()
+	  .startWebDriver()
+	  .then(() => runner.runTests())
+	  .then(() => runner.stopWebDriver())
+	  .catch(err => console.error(err));
+  });
+
+

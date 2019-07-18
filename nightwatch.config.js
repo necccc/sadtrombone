@@ -1,9 +1,9 @@
-{
+module.exports = {
 	"src_folders" : ["src"],
 
 	"webdriver" : {
 	  "start_process": true,
-	  "server_path": "node_modules/.bin/chromedriver",
+	  "server_path": `${__dirname}/node_modules/.bin/chromedriver`,
 	  "port": 9515
 	},
 
